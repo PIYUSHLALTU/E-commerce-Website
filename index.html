@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LifeStyle Store</title>
+	<link rel = "stylesheet"
+   type = "text/css"
+   href = "index.css">
+</head>
+<body>
+<div class="h1">
+<div class="h2">
+ <div class="h3"><a href="" >Lifestyle Store</div>
+ <div class="h4"><a href="" >Profile</div>
+ <div class="h5"><a href="" >Wishlist</div>
+ <div class="h5"><a href="Contact.html" >Contact Us</div>
+ </div></div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="3.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="4.jpg" style="width:100%">
+  <div class="text">Caption Four</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="5.jpg" style="width:100%">
+  <div class="text">Caption Five</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="6.jpg" style="width:100%">
+  <div class="text">Caption Six</div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 3 seconds
+}
+</script>
+<div class="a1">
+<div class="a2">
+<div class="a3">
+BRANDS IN FOCUS</div></div></br></br></br>
+<table style="width:100%">
+  <tr>
+    <td><a href="file:///C:/Users/asus/Desktop/project/page1/page1.html"><img src="a1.jpg" alt="description here" height="550" width="377" /></td></a>
+    <td><a href="file:///C:/Users/asus/Desktop/project/page2/page1.html"><img src="a2.jpg" alt="description here" height="550" width="377"></td></a>
+    <td><a href="file:///C:/Users/asus/Desktop/project/page3/page1.html"><img src="a3.jpg" alt="description here"height="550" width="377"></td></a>
+	<td><a href="file:///C:/Users/asus/Desktop/project/page4/page1.html"><img src="a4.jpg" alt="description here"height="550" width="377"></td></a>
+  </tr>
+  <tr>
+    <td><a href="file:///C:/Users/asus/Desktop/project/page5/page1.html">	<img src="a5.jpg" alt="description here"height="550" width="377"></td></a>
+    	<td><a href="file:///C:/Users/asus/Desktop/project/page6/page1.html"><img src="a6.jpg" alt="description here"height="550" width="377"></td></a>
+			<td><a href="file:///C:/Users/asus/Desktop/project/page7/page1.html"><img src="a7.jpg" alt="description here"height="550" width="377"></td></a>
+				<td><a href="file:///C:/Users/asus/Desktop/project/page8/page1.html"><img src="a8.jpg" alt="description here"height="550" width="377"></td></a>
+  </tr>
+</table>
+</body>
+</html>
+
+
+
+
+
+
